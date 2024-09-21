@@ -177,3 +177,8 @@ footer button {
     align-items: center;
     justify-content: space-around;
 }
+
+/*Transition*/
+.gallery img {
+    transition: 500ms;
+}

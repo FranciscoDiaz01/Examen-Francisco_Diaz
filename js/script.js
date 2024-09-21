@@ -19,3 +19,8 @@ function eliminar_coockies() {
   var cookie = document.querySelector(".cookie");
   cookie.remove();
 }
+
+//Transition
+function scale(elemento, value) {
+  elemento.style.transform = "scale(" + value + ")";
+}
